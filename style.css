@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@0;1&display=swap");
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header {
   position: fixed;
