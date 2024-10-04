@@ -12,11 +12,13 @@
     />
   </head>
   <body>
-    <!-- navbar -->
+    <!-- header -->
     <header>
+      <!-- navbar -->
       <nav class="navbar container">
         <h2 class="logo"><a href="../home.html">Nan.Edu</a></h2>
         <ul class="nav-links">
+          <li><a href="../home.html">Home</a></li>
           <li><a href="courses.html">Courses</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -24,53 +26,58 @@
           <a href="login.html" class="login-btn">Login</a>
         </div>
       </nav>
+      <!-- navbar end -->
     </header>
-    <!-- nav end -->
+    <!-- header end -->
 
-    <!-- content start -->
-    <!--Contact-->
-    <section class="contact" id="contact">
-      <div class="contact-container">
-        <div class="section-title">
-          <h2>Contact Us</h2>
-        </div>
+    <!-- main -->
+    <main>
+      <!--content -->
+      <section class="contact" id="contact">
+        <div class="contact-container">
+          <div class="section-title">
+            <h2>Contact Us</h2>
+          </div>
 
-        <div class="row flex">
-          <div class="col map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.253830919441!2d106.80417657409643!3d-6.23022986101209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f15b30d89e2f%3A0x36d3e4c4cc53ad68!2sJl.%20Senopati%2C%20Kec.%20Kby.%20Baru%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sen!2sid!4v1727266836590!5m2!1sen!2sid"
-              width="600"
-              height="275"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-            <p class="map-caption">
-              <strong>NAN.EDU</strong><br />
-              Jl. Senopati Kec. Kby. Baru, Kota Jakarta Selatan, rt.005/009,<br />
-              Daerah Khusus Ibukota Jakarta
-            </p>
-            <div class="whatsapp">
-              <a href="#" target="_blank" class="whatsapp-button">
-                <img src="../img/wa.png" alt="WhatsApp" />
-              </a>
+          <div class="row flex">
+            <div class="col map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.253830919441!2d106.80417657409643!3d-6.23022986101209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f15b30d89e2f%3A0x36d3e4c4cc53ad68!2sJl.%20Senopati%2C%20Kec.%20Kby.%20Baru%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sen!2sid!4v1727266836590!5m2!1sen!2sid"
+                width="600"
+                height="275"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+              <p class="map-caption">
+                <strong>NAN.EDU</strong><br />
+                Jl. Senopati Kec. Kby. Baru, Kota Jakarta Selatan,
+                rt.005/009,<br />
+                Daerah Khusus Ibukota Jakarta
+              </p>
+              <div class="whatsapp">
+                <a href="#" target="_blank" class="whatsapp-button">
+                  <img src="../img/wa.png" alt="WhatsApp" />
+                </a>
+              </div>
+            </div>
+
+            <div class="col form">
+              <form action="#">
+                <input type="text" placeholder="Name*" required />
+                <input type="text" placeholder="Phone*" required />
+                <input type="email" placeholder="Email*" required />
+                <textarea placeholder="Message*" required></textarea>
+                <button id="submit" type="submit">Send Message</button>
+              </form>
             </div>
           </div>
-
-          <div class="col form">
-            <form action="#">
-              <input type="text" placeholder="Name*" required />
-              <input type="text" placeholder="Phone*" required />
-              <input type="email" placeholder="Email*" required />
-              <textarea placeholder="Message*" required></textarea>
-              <button id="submit" type="submit">Send Message</button>
-            </form>
-          </div>
         </div>
-      </div>
-    </section>
-    <!-- end content -->
+      </section>
+      <!-- content end -->
+    </main>
+    <!-- main end -->
 
     <footer>
       <p>&copy; Nan.Edu 2024</p>

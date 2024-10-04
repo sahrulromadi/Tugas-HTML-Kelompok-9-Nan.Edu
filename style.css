@@ -1,63 +1,67 @@
+/* umum */
 body {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: #212529;
-  z-index: 999;
-}
-nav {
-  height: 80px;
-}
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav-links {
-  list-style: none;
-  margin: 30px 30px;
-  display: flex;
-  justify-content: flex-end;
-  gap: 30px;
-}
-.navbar a {
-  padding: 10px 0;
-  display: inline-block;
-  color: #fff;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-.navbar a:hover {
-  color: #32a8a6;
-}
-.navbar .logo a {
-  color: #fff;
-  margin-left: 30px;
-  font-weight: bold;
-}
-.login-btn {
-  color: white;
-  background-color: #32a8a6;
-  border: none;
-  border-radius: 10px;
-  padding: 10px;
-  text-align: center;
-  width: 80px;
-  margin-left: 20px;
-  margin-right: 30px;
-  cursor: pointer;
-}
-.login-btn:hover {
-  color: #32a8a6;
-  background-color: white;
+  padding: 0; /* Menghapus padding pada body */
+  margin: 0; /* Menghapus margin pada body */
+  box-sizing: border-box; /* Mengatur box-sizing untuk menghindari masalah layout */
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Menentukan font untuk seluruh halaman */
 }
 
+/* navbar */
+header {
+  position: fixed; /* Menetapkan posisi header agar tetap di atas */
+  top: 0; /* Menempatkan header di bagian atas */
+  width: 100%; /* Membuat header memenuhi lebar layar */
+  background: #212529; /* Warna latar belakang untuk header */
+  z-index: 999; /* Mengatur z-index agar header tetap di atas elemen lain */
+}
+nav {
+  height: 80px; /* Mengatur tinggi navbar */
+}
+.navbar {
+  display: flex; /* Menggunakan flexbox untuk tata letak navbar */
+  justify-content: space-between; /* Menyebar elemen di antara ruang yang tersedia */
+  align-items: center; /* Menyelaraskan elemen secara vertikal */
+}
+.nav-links {
+  list-style: none; /* Menghilangkan bullet points pada daftar link */
+  margin: 30px 30px; /* Menambahkan margin pada daftar */
+  display: flex; /* Menggunakan flexbox untuk daftar link */
+  justify-content: flex-end; /* Mengatur daftar ke sebelah kanan */
+  gap: 30px; /* Menambahkan jarak antar link */
+}
+.navbar a {
+  padding: 10px 0; /* Menambahkan padding atas dan bawah pada link */
+  display: inline-block; /* Mengatur tampilan link sebagai blok inline */
+  color: #fff; /* Mengatur warna teks untuk link */
+  text-decoration: none; /* Menghilangkan garis bawah pada link */
+  text-transform: capitalize; /* Mengubah teks menjadi huruf kapital pada awal kata */
+}
+.navbar a:hover {
+  color: #32a8a6; /* Mengubah warna teks saat hover pada link */
+}
+.navbar .logo a {
+  color: #fff; /* Mengatur warna teks untuk logo */
+  margin-left: 30px; /* Menambahkan margin kiri pada logo */
+  font-weight: bold; /* Membuat teks logo menjadi tebal */
+}
+.login-btn {
+  color: white; /* Mengatur warna teks pada tombol login */
+  background-color: #32a8a6; /* Mengatur warna latar belakang tombol login */
+  border: none; /* Menghilangkan border pada tombol */
+  border-radius: 10px; /* Membuat sudut tombol menjadi bulat */
+  padding: 10px; /* Menambahkan padding pada tombol */
+  text-align: center; /* Mengatur teks di tengah tombol */
+  width: 80px; /* Mengatur lebar tombol */
+  margin-left: 20px; /* Menambahkan margin kiri pada tombol */
+  margin-right: 30px; /* Menambahkan margin kanan pada tombol */
+  cursor: pointer; /* Mengubah kursor saat mouse hover di tombol */
+}
+.login-btn:hover {
+  color: #32a8a6; /* Mengubah warna teks saat hover pada tombol */
+  background-color: white; /* Mengubah warna latar belakang saat hover pada tombol */
+}
+
+/* home */
 .content {
   position: relative;
   top: -30px;
